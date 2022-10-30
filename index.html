@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#1e1e1e">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#cbcbcb">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="home">
+            <!-- Navbar -->
+            <nav>
+                <div class="container">
+                    <div class="navbar">
+                        <div class="logo"> <a href="#"> <img src="images/logo.svg" alt="header logo"> </a> </div>
+                        <ul class="menu">
+                            <li class="menu__item"><a class="menu__item-link" href="#home" data-scroll>Home</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#episodes" data-scroll>Episodes</a>
+                            </li>
+                            <li class="menu__item"><a class="menu__item-link" href="#author" data-scroll>About</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#contacts" data-scroll>Contact</a>
+                            </li>
+                        </ul>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__inner-img" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine" data-aos-duration="1200">
+                            <img id="parallax" src="images/hero/hero-img.png" alt="Изображение">
+                        </div>
+                        <div class="hero__inner-content hero-content" data-aos="fade-left"
+                            data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1200">
+                            <h1 class="visually-hidden">Next level</h1>
+                            <p class="hero-content__text">
+                                Take your podcast to the next <span>level</span>
+                            </p>
+                            <div class="hero-content__listenon">
+                                <h6 class="hero-content__listenon-title">Listen on</h6>
+                                <ul class="hero-content__listenon-list">
+                                    <li class="hero-content__listenon-item">
+                                        <a class="hero-content__listenon-link" href="#">
+                                            <img src="images/hero/lisntenon-1.svg" alt="Слушайте тут">
+                                        </a>
+                                    </li>
+                                    <li class="hero-content__listenon-item">
+                                        <a class="hero-content__listenon-link" href="#">
+                                            <img src="images/hero/lisntenon-2.svg" alt="Слушайте тут">
+                                        </a>
+                                    </li>
+                                    <li class="hero-content__listenon-item">
+                                        <a class="hero-content__listenon-link" href="#">
+                                            <img src="images/hero/lisntenon-3.svg" alt="Слушайте тут">
+                                        </a>
+                                    </li>
+                                    <li class="hero-content__listenon-item">
+                                        <a class="hero-content__listenon-link hero-content__listenon-link--border"
+                                            href="#">
+                                            <img src="images/hero/lisntenon-4.svg" alt="Слушайте тут">
+                                        </a>
+                                    </li>
+                                    <li class="hero-content__listenon-item">
+                                        <a class="hero-content__listenon-link" href="#">
+                                            <img src="images/hero/lisntenon-5.svg" alt="Слушайте тут">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="episodes" id="episodes">
+                <div class="container">
+                    <div class="episodes__inner">
+                        <div class="episodes-top" data-aos="fade-down" data-aos-duration="1200">
+                            <h2 class="episodes-top__title">Latest episodes</h2>
+                            <a class="episodes-top__btn main-btn" href="#">View all episodes</a>
+                        </div>
+                        <div class="episodes-content">
+                            <article class="episodes-content__item episodes-item" data-aos="fade-up"
+                                data-aos-easing="linear" data-aos-duration="1200">
+                                <div class="episodes-item__img">
+                                    <img id="parallax" src="images/episodes/episode-img1.jpg" alt="Превью эпизода">
+                                </div>
+                                <div class="episodes-item__content">
+                                    <a class="episodes-item__category" href="#">Gear</a>
+                                    <a class="episodes-item__number" href="#">Episode 3</a>
+                                    <h3 class="episodes-item__title">Should you get outboard audio gear?</h3>
+                                    <p class="episodes-item__text">Is hardware really worth it when it comes to
+                                        podcasting? The answer is...it depends. Here’s our reasons on why you might want
+                                        to consider picking something up.</p>
+                                    <a class="episodes-item__btn main-btn" href="#">View Episode Details</a>
+                                </div>
+                            </article>
+                            <article class="episodes-content__item episodes-item" data-aos="fade-up"
+                                data-aos-easing="linear" data-aos-duration="1200">
+                                <div class="episodes-item__img">
+                                    <img id="parallax" src="images/episodes/episode-img2.jpg" alt="Превью эпизода">
+                                </div>
+                                <div class="episodes-item__content">
+                                    <a class="episodes-item__category" href="#">Tips & Tricks</a>
+                                    <a class="episodes-item__number" href="#">Episode 2</a>
+                                    <h3 class="episodes-item__title">Mic tricks to take you to the next level</h3>
+                                    <p class="episodes-item__text">Stop rolling with those default settings on your mic.
+                                        These small tweaks will take you from sounding good to great.</p>
+                                    <a class="episodes-item__btn main-btn" href="#">View Episode Details</a>
+                                </div>
+                            </article>
+                            <article class="episodes-content__item episodes-item" data-aos="fade-up"
+                                data-aos-easing="linear" data-aos-duration="1200">
+                                <div class="episodes-item__img">
+                                    <img id="parallax" src="images/episodes/episode-img3.jpg" alt="Превью эпизода">
+                                </div>
+                                <div class="episodes-item__content">
+                                    <a class="episodes-item__category" href="#">Gear</a>
+                                    <a class="episodes-item__number" href="#">Episode 1</a>
+                                    <h3 class="episodes-item__title">The best microphone under $200</h3>
+                                    <p class="episodes-item__text">With so many microphones on the market, how are you
+                                        supposed to know what’s the best? Take a look at our top picks.</p>
+                                    <a class="episodes-item__btn main-btn" href="#">View Episode Details</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="author" id="author" data-aos="fade-up" data-aos-duration="1200">
+                <div class="container">
+                    <div class="author__inner">
+                        <div class="author__inner-content author-content">
+                            <a class="author-content__btn" href="#">
+                                <img src="images/author/arrow-btn.png" alt="Кнопка">
+                            </a>
+                            <br>
+                            <a class="author-content__meet-btn" href="#">Meet your host</a>
+                            <h3 class="author-content__name">Jacob Paulaner</h3>
+                            <div class="author-content__text">
+                                <p>Jacob has a background in audio engineering, and has been podcasting since the early
+                                    days.</p>
+                                <p>He’s here to help you level up your game by sharing everything he’s learned along the
+                                    way.</p>
+                            </div>
+                        </div>
+                        <div class="author__inner-img">
+                            <img id="parallax" src="images/author/author-img.png" alt="Изображение человека">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe" data-aos="fade-up" data-aos-duration="1200">
+                <h2 class="visually-hidden">Subscribe-section</h2>
+                <div class="container">
+                    <div class="subscribe__inner">
+                        <div class="subscribe-box">
+                            <div class="subscribe-box__content">
+                                <a class="subscribe-box__content-link" href="#">Email Newsletter</a>
+                                <p class="subscribe-box__content-text">Subscribe for updates</p>
+                            </div>
+                            <form class="subscribe-box__form subscribe-form" action="#">
+                                <input class="subscribe-form__input" type="text" placeholder="Name">
+                                <input class="subscribe-form__input" type="text" placeholder="Email">
+                                <button class="subscribe-form__btn main-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <ul class="reviews__boxes">
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">I can’t recommend this podcast enough</blockquote>
+                            <div class="reviews-box__name">Betty Lacey</div>
+                        </li>
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">Jacob is the best in the business</blockquote>
+                            <div class="reviews-box__name">Adam Driver</div>
+                        </li>
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">A wealth of audio knowledge</blockquote>
+                            <div class="reviews-box__name">Marcus Brown</div>
+                        </li>
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">Every episode is a gem!</blockquote>
+                            <div class="reviews-box__name">Jessica Knowl</div>
+                        </li>
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">Whoa whoa, let me take some notes!</blockquote>
+                            <div class="reviews-box__name">Scott Adams</div>
+                        </li>
+                        <li class="reviews__boxes-item reviews-box" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="reviews-box__rating">
+                                <img src="images/reviews/rating.svg" alt="Рейтинг">
+                            </div>
+                            <blockquote class="reviews-box__review">I’ve upped my game considerably since I started
+                                listening</blockquote>
+                            <div class="reviews-box__name">Steven Blast</div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="contacts" data-aos="fade-up" data-aos-duration="1200">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__inner-columns">
+                        <div class="footer__inner-column footer-column footer-column--1">
+                            <a class="footer-column__logo" href="#">
+                                <img src="images/footer/footer-logo.svg" alt="Логотип в футере">
+                            </a>
+                            <ul class="footer-column__social-list">
+                                <li class="footer-column__social-item">
+                                    <a class="footer-column__social-link" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M16 11.3698C16.1234 12.202 15.9812 13.052 15.5937 13.7988C15.2062 14.5456 14.5931 15.1512 13.8416 15.5295C13.0901 15.9077 12.2384 16.0394 11.4077 15.9057C10.5771 15.7721 9.80971 15.3799 9.21479 14.785C8.61987 14.19 8.22768 13.4227 8.09402 12.592C7.96035 11.7613 8.09202 10.9097 8.47028 10.1582C8.84854 9.40667 9.45414 8.79356 10.2009 8.40606C10.9477 8.01856 11.7977 7.8764 12.63 7.99982C13.4789 8.1257 14.2648 8.52128 14.8716 9.12812C15.4785 9.73497 15.8741 10.5209 16 11.3698Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </a>
+                                </li>
+                                <li class="footer-column__social-item">
+                                    <a class="footer-column__social-link" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M23 2.9998C22.0424 3.67528 20.9821 4.19191 19.86 4.52981C19.2577 3.83732 18.4573 3.3465 17.567 3.12373C16.6767 2.90097 15.7395 2.957 14.8821 3.28426C14.0247 3.61152 13.2884 4.19421 12.773 4.95352C12.2575 5.71284 11.9877 6.61214 12 7.5298V8.52979C10.2426 8.57536 8.50127 8.18562 6.93101 7.39525C5.36074 6.60488 4.01032 5.43844 3 3.9998C3 3.9998 -1 12.9998 8 16.9998C5.94053 18.3978 3.48716 19.0987 1 18.9998C10 23.9998 21 18.9998 21 7.49979C21 7.21979 20.97 6.93981 20.92 6.66981C21.9406 5.6633 22.6608 4.39252 23 2.9998Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                                <li class="footer-column__social-item">
+                                    <a class="footer-column__social-link" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__inner-column footer-column footer-column--2">
+                            <ul class="footer-column__list">
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#home">Home</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#author">About</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#episodes">Episodes</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#contacts">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__inner-column footer-column footer-column--3">
+                            <ul class="footer-column__list">
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Style Guide</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Instructions</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Changelog</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Credit</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Powered by Webflow</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a class="footer-column__link" href="#">Licenses</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__inner-column footer-column footer-column--4">
+                            <ul class="hero-content__listenon-list footer-content__listenon-list">
+                                <li class="hero-content__listenon-item footer-content__listenon-item">
+                                    <a class="hero-content__listenon-link footer-content__listenon-link" href="#">
+                                        <img src="images/hero/lisntenon-1.svg" alt="Слушайте тут">
+                                    </a>
+                                </li>
+                                <li class="hero-content__listenon-item footer-content__listenon-item">
+                                    <a class="hero-content__listenon-link footer-content__listenon-link" href="#">
+                                        <img src="images/hero/lisntenon-2.svg" alt="Слушайте тут">
+                                    </a>
+                                </li>
+                                <li class="hero-content__listenon-item footer-content__listenon-item">
+                                    <a class="hero-content__listenon-link footer-content__listenon-link" href="#">
+                                        <img src="images/hero/lisntenon-3.svg" alt="Слушайте тут">
+                                    </a>
+                                </li>
+                                <li class="hero-content__listenon-item footer-content__listenon-item">
+                                    <a class="hero-content__listenon-link footer-content__listenon-link footer-content__listenon-link--border"
+                                        href="#">
+                                        <img src="images/hero/lisntenon-4.svg" alt="Слушайте тут">
+                                    </a>
+                                </li>
+                                <li class="hero-content__listenon-item footer-content__listenon-item">
+                                    <a class="hero-content__listenon-link footer-content__listenon-link" href="#">
+                                        <img src="images/hero/lisntenon-5.svg" alt="Слушайте тут">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
